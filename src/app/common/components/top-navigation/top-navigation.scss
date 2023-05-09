@@ -1,0 +1,29 @@
+.navigation-button {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+
+    border: 0rem;
+    filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+
+    button {
+        padding: 0rem;
+        background-color: #FFFFFF;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.5;
+        opacity: 0.5;
+    }
+    button:hover {
+        filter:alpha(opacity=100);
+        -moz-opacity: 1;
+        opacity: 1;
+    }
+
+    img {
+        width: 5.5rem;
+        height: 5rem;    
+    }
+}

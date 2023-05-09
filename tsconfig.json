@@ -1,0 +1,56 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "allowJs": true,
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "baseUrl": "src",
+        "paths": {
+            "@app-kit/*": [
+                "app/app-kit/*"
+            ],
+            "@authorize/*": [
+                "app/authorize/*"
+            ],
+            "@common/*": [
+                "app/common/*"
+            ],
+            "@debug/*": [
+                "app/debug/*"
+            ],
+            "@error/*": [
+                "app/error/*"
+            ],
+            "@outside/*": [
+                "app/outside/*"
+            ],
+            "@site-information/*": [
+                "app/site-information/*"
+            ],
+            "@aspect-tube/*": [
+                "app/site/aspect-tube/*"
+            ],
+            "@environments/*": [
+                "environments/*"
+            ],
+            "@material/*": [
+                "../material/*"
+            ],
+            "@scripts/*": [
+                "../scripts/*"
+            ]
+        },
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "es2017",
+            "dom"
+        ]
+    }
+}

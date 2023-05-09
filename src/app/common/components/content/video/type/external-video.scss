@@ -1,0 +1,10 @@
+iframe[id="video-screen"] {
+    &.normal-screen {
+        width: 100%;
+        height: 25rem;
+    }
+    &.full-screen {
+        width: 100%;
+        height: 100%;
+    }
+}

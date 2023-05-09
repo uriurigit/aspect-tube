@@ -1,0 +1,28 @@
+div[id="site-frame"] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    div[id="header"] {
+        div[id="header-up"] {
+            background: url(http://upload.fku.ed.jp/css/052/common/img/footer_bg.jpg) left top repeat-x;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0.8rem 20rem;
+        }
+    }
+
+    div[id="body"] {
+    }
+
+    div[id="footer"] {
+        margin-top: auto;
+
+        div[id="footer-bottom"] {
+            background: url(http://upload.fku.ed.jp/css/052/common/img/footer_bg.jpg) left top repeat-x;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0.8rem 20rem;
+        }
+    }
+}
